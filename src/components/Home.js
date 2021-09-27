@@ -29,9 +29,10 @@ const Home = () => {
 		/> 
 			: null}
 			<Grid header='Popular Movies'>
-				{/* {state.results.map((movie) => (
-					<div key={movie.id}>{movie.title}</div>
-				))} */}
+				{state.results.map((movie) => (
+					<div key={movie.id}>{movie.title
+					}</div>
+				))}
 			</Grid>
 		</>
 	) 
